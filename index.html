@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Задание 11</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="content">
+
+    <div class="search">
+      <div class="search_form">
+        <label>
+          <sapn class="label">Поиск персонажа:</sapn> 
+
+          <input type="text" class="person_search" id="person_search_input"> 
+        </label>
+        
+        <label>
+          <span class="label">Что ищем:</span>
+
+          <select class="search_resource_select" id="search_resource_select"> 
+            <option value="people">Персонажей</option>
+            <option value="planets">Планеты</option>
+            <option value="starships">Звездолеты</option>
+            <option value="vehicles">Машины</option>
+          </select>
+        </label>
+
+        <button id="search_request_btn" class="button">Найти</button></div>
+      <ul class="search_result">
+      </ul>
+    </div>
+
+    <div class="person_data">
+      <div>Имя: <span id="name"></span></div>
+      <div>Рост: <span id="height"></span></div>
+      <div>Вес: <span id="mass"></span></div>
+      <div>Год рождения: <span id="birth_year"></span></div>
+      <div>В скольки фильмах появлялся: <span id="films_count"></span></div>
+    </div>
+  </div>
+
+</body>
+
+</html>
